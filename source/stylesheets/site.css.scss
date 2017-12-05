@@ -1,12 +1,8 @@
-gedit body {
-  background-color: #fbc547;
-  color: #333;
+body {
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
 }
 
 a {
@@ -32,7 +28,7 @@ h1 {
 }
 body {
 
-	background-image: url("Images/shattered_@2X.png");
+	background-image: url("../images/shattered_@2X.png");
 }
 hr {
 	height: 100%;
