@@ -1,7 +1,10 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   background-image: url("../images/shattered_@2X.png");
-  margin: 20px; }
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 100px; }
 
 ul li {
   padding: 5px 5px;
@@ -22,10 +25,13 @@ hr {
   background-color: #FFFFFF; }
 
 .contact-img {
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   border: 0px; }
 
 .invert {
   -webkit-filter: invert(100%);
           filter: invert(100%); }
+
+.nav-element-text {
+  vertical-align: middle; }
