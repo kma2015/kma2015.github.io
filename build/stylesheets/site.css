@@ -33,5 +33,6 @@ hr {
   -webkit-filter: invert(100%);
           filter: invert(100%); }
 
-.nav-element-text {
-  vertical-align: middle; }
+#nameHeading {
+  font-size: 150%;
+  color: white; }

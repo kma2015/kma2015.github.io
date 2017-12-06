@@ -39,8 +39,11 @@ hr {
 	filter: invert(100%);
 }
 
-.nav-element-text{
-	vertical-align: middle;
+#nameHeading{
+	font-size:150%;
+	color: white;
 }
 
-
+#navbar .linkText{
+	//color: #eee;
+}
