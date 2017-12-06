@@ -1,5 +1,7 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  background-image: url("../images/shattered_@2X.png");
+  margin: 20px; }
 
 ul li {
   padding: 5px 5px;
@@ -12,9 +14,6 @@ p {
 h1 {
   font-size: 150%;
   font-weight: normal; }
-
-body {
-  background-image: url("../images/shattered_@2X.png"); }
 
 hr {
   height: 100%;

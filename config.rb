@@ -6,7 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 #Put files in root directory so github pages will see them
-set :build_dir, '/'
+set :build_dir, 'build'
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
