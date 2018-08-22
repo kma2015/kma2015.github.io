@@ -36,3 +36,13 @@ hr {
 #nameHeading {
   font-size: 150%;
   color: white; }
+
+.hw2Img {
+  width: 50%; }
+
+.textImg {
+  margin-bottom: 80px; }
+
+.textImg p {
+  font-size: 120%;
+  margin-bottom: 5px; }
