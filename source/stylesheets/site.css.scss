@@ -48,14 +48,14 @@ hr {
 	filter: invert(100%);
 }
 
-#nameHeading{
+#nameHeading a h2{
 	font-size:150%;
+	padding: 6px 8px 6px 16px;
 	color: white;
+	text-decoration: none;
+	font-size: 30px;
 }
 
-#navbar .linkText{
-	//color: #eee;
-}
 .hw2Img{
 	width: 50%;
 }
@@ -85,7 +85,7 @@ hr {
 
 /* The navigation menu links */
 .pageEl {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 6px 16px; 
     text-decoration: none;
     font-size: 25px;
     color: #818181;

@@ -41,9 +41,12 @@ hr {
   -webkit-filter: invert(100%);
           filter: invert(100%); }
 
-#nameHeading {
+#nameHeading a h2 {
   font-size: 150%;
-  color: white; }
+  padding: 6px 8px 6px 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px; }
 
 .hw2Img {
   width: 50%; }
