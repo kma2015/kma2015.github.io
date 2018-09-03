@@ -107,9 +107,12 @@ p {
 
 .card {
   padding: 5px 15px 5px 15px;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 10% 20px 10%;
   background-color: #fdfdfd; }
 
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 0px 0px 20px 0px; } }
 #mainPic {
   width: 100%;
   padding: 0px 8px 6px 8px; }
