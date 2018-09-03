@@ -107,10 +107,10 @@ p {
 
 .card {
   padding: 5px 15px 5px 15px;
-  margin: 0px 10% 20px 10%;
+  margin: 0px 105px 20px 105px;
   background-color: #fdfdfd; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .card {
     margin: 0px 0px 20px 0px; } }
 #mainPic {
