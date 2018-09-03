@@ -16,7 +16,7 @@ p {
 
 h1 {
   font-size: 150%;
-  font-weight: normal; }
+  font-weight: 600; }
 
 hr {
   height: 100%;
@@ -102,3 +102,5 @@ hr {
 
   .sidenav a {
     font-size: 18px; } }
+p {
+  font-size: 130%; }
