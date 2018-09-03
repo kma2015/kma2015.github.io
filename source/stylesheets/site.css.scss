@@ -19,8 +19,9 @@ p {
 	font-size: 100%;
 }
 h1 {
-	font-size: 150%;
-	font-weight: 600;
+	font-size: 200%;
+	margin-left: 15px;
+	font-weight: 500;
 }
 hr {
 	height: 100%;
@@ -111,4 +112,10 @@ hr {
 
 p{
 	font-size: 130%;
+}
+
+.card{
+	padding: 5px 15px 5px 15px;
+	background-color: rgb(253, 253, 253);
+	
 }
