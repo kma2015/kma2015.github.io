@@ -1,2 +1,2 @@
-#Personel website
+#Personal website project
 Kiera Acitelli
