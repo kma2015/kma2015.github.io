@@ -116,3 +116,6 @@ p {
 #mainPic {
   width: 100%;
   padding: 0px 8px 6px 8px; }
+
+td p {
+  font-size: 110%; }
