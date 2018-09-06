@@ -119,3 +119,14 @@ p {
 
 td p {
   font-size: 110%; }
+
+.footer {
+  text-align: right;
+  margin: 0px 105px 20px 105px; }
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    margin: 0px 0px 20px 0px; } }
+.footer p {
+  font-size: 100%;
+  margin-bottom: 0px; }
