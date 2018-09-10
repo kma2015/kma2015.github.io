@@ -29,8 +29,8 @@ hr {
   margin-right: 5%;
   height: 32px;
   width: 100%;
-  margin-top: 2%;
-  margin-bottom: 2%; }
+  margin-top: 5%;
+  margin-bottom: 12%; }
 
 .contact-img img {
   width: 32px;
@@ -43,10 +43,12 @@ hr {
 
 #nameHeading a h2 {
   font-size: 150%;
-  padding: 6px 8px 6px 16px;
+  font-family: caladea;
+  font-weight: 800;
+  padding: 0px 8px 6px 16px;
   color: white;
   text-decoration: none;
-  font-size: 30px; }
+  font-size: 40px; }
 
 .hw2Img {
   width: 50%; }
@@ -62,7 +64,7 @@ hr {
 .sidenav {
   height: 100%;
   /* Full-height: remove this if you want "auto" height */
-  width: 160px;
+  width: 180px;
   /* Set the width of the sidebar */
   position: fixed;
   /* Fixed Sidebar (stay in place on scroll) */
@@ -74,8 +76,7 @@ hr {
   background-color: #111;
   /* Black */
   overflow-x: hidden;
-  /* Disable horizontal scroll */
-  padding-top: 20px; }
+  /* Disable horizontal scroll */ }
 
 /* The navigation menu links */
 .pageEl {
@@ -115,7 +116,8 @@ p {
     margin: 0px 0px 20px 0px; } }
 #mainPic {
   width: 100%;
-  padding: 0px 8px 6px 8px; }
+  padding: 6px 8px 6px 16px;
+  margin-bottom: 10px; }
 
 td p {
   font-size: 110%; }
@@ -130,3 +132,18 @@ td p {
 .footer p {
   font-size: 100%;
   margin-bottom: 0px; }
+
+/* The navigation menu links */
+#resume a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  display: block; }
+
+/* When you mouse over the navigation links, change their color */
+#resume a:hover {
+  color: #f1f1f1; }
+
+#resumeIcon {
+  width: 32px; }
