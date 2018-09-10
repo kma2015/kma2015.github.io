@@ -113,7 +113,7 @@ p {
 
 @media only screen and (max-width: 800px) {
   .card {
-    margin: 0px 0px 20px 0px; } }
+    margin: 0px 0px 20px 20px; } }
 #mainPic {
   width: 100%;
   padding: 6px 16px 6px 16px;
