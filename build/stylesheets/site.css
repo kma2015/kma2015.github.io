@@ -111,9 +111,6 @@ p {
   margin: 0px 105px 20px 105px;
   background-color: #fdfdfd; }
 
-@media only screen and (max-width: 800px) {
-  .card {
-    margin: 0px 0px 20px 20px; } }
 #mainPic {
   width: 100%;
   padding: 6px 16px 6px 16px;
@@ -126,13 +123,16 @@ td p {
   text-align: right;
   margin: 0px 105px 20px 105px; }
 
-@media only screen and (max-width: 800px) {
-  .footer {
-    margin: 0px 0px 20px 0px; } }
 .footer p {
   font-size: 100%;
   margin-bottom: 0px; }
 
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  .card {
+    margin: 0px 0px 20px 20px; }
+
+  .footer {
+    margin: 0px 0px 20px 0px; } }
 /* The navigation menu links */
 #resume a {
   padding: 6px 8px 6px 16px;
