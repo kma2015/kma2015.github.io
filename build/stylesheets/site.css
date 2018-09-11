@@ -157,7 +157,10 @@ td p {
     margin: 10px 10px 10px 10px; }
 
   .topBar a {
-    font-size: 25px; } }
+    font-size: 25px; }
+
+  .footer {
+    margin: 0px 10px 20px 10px; } }
 /* The navigation menu links */
 #resume a {
   padding: 6px 8px 6px 16px;
