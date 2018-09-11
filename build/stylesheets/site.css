@@ -96,13 +96,6 @@ hr {
   /* Same as the width of the sidebar */
   padding: 0px 10px; }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px; }
-
-  .sidenav a {
-    font-size: 18px; } }
 p {
   font-size: 130%; }
 
@@ -127,40 +120,6 @@ td p {
   font-size: 100%;
   margin-bottom: 0px; }
 
-@media only screen and (max-width: 800px) and (min-width: 600px) {
-  .card {
-    margin: 0px 0px 20px 20px; }
-
-  .footer {
-    margin: 0px 0px 20px 0px; } }
-@media only screen and (min-width: 600px) {
-  .container-fluid {
-    width: 0;
-    height: 0; }
-
-  .navbar {
-    min-height: 0;
-    height: 0;
-    width: 0;
-    display: none; } }
-@media only screen and (max-width: 599px) {
-  /* Make sidebar invisible*/
-  .sidenav {
-    width: 0;
-    /* Set the width of the sidebar */
-    height: 0; }
-
-  body {
-    margin: 0px 0px 0px 0px; }
-
-  .card {
-    margin: 10px 10px 10px 10px; }
-
-  .topBar a {
-    font-size: 25px; }
-
-  .footer {
-    margin: 0px 10px 20px 10px; } }
 /* The navigation menu links */
 #resume a {
   padding: 6px 8px 6px 16px;
@@ -175,3 +134,42 @@ td p {
 
 #resumeIcon {
   width: 25px; }
+
+/*Make margins smaller for medium screens*/
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  .card {
+    margin: 0px 0px 20px 20px; }
+
+  .footer {
+    margin: 0px 0px 20px 0px; } }
+/*Get rid of top bar for med/large screens*/
+@media only screen and (min-width: 600px) {
+  .container-fluid {
+    width: 0;
+    height: 0; }
+
+  .navbar {
+    min-height: 0;
+    height: 0;
+    width: 0;
+    display: none; } }
+/*Small screen formatting*/
+@media only screen and (max-width: 599px) {
+  /* Make sidebar invisible*/
+  .sidenav {
+    width: 0;
+    /* Set the width of the sidebar */
+    height: 0; }
+
+  /*Get rid of large margins for small screen*/
+  body {
+    margin: 0px 0px 0px 0px; }
+
+  .card {
+    margin: 10px 10px 10px 10px; }
+
+  .topBar a {
+    font-size: 25px; }
+
+  .footer {
+    margin: 0px 10px 20px 10px; } }
